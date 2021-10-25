@@ -1,0 +1,9 @@
+{
+  "name": "pixel_32dash",
+  "main": "main.js",
+  "productName": "Pixel Dash",
+  "description": "Pixel Dash",
+  "author": "CmSpeedrunner",
+  "version": "1.0.0",
+  "dependencies": {}
+}
