@@ -1,9 +1,9 @@
 ## Pixel Dash TASing Tools
 
-A Simple Frontend To allow TASING of Pixel Dash
+A simple frontend To allow TASing of Pixel Dash
 
 
-### This Project isn't fully finished and these are the things still being worked on
+### This project isn't fully finished and these are the things still being worked on
 - GUI Frontend
 - Input Display (External)
 
@@ -16,4 +16,6 @@ A Simple Frontend To allow TASING of Pixel Dash
 
 # Update History
 
-8/25/21 - Support Added For Arrow Keys
+8/25/21 - Support added for arrow keys (7331dev/Epicness)
+8/25/21 - github.io page made (River)
+ 
