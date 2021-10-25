@@ -1,15 +1,15 @@
 window.inputs = {
 	"level 1": [
-		[0, 300, "d"],
+		[0, 300, "right"],
 		[33, 48, "jump"],
 		[95, 114, "jump"],
 	],
 	"level 2": [
-		[0, 300, "d"],
+		[0, 300, "right"],
 		[42, 43, "e"],
 	],
 	"level 3": [
-		[0, 300, "d"],
+		[0, 300, "right"],
 		[10, 13, "jump"],
 		[50, 53, "jump"],
 		[90, 93, "jump"],
@@ -17,85 +17,85 @@ window.inputs = {
 		[120, 122, "jump"],
 	],
 	"level 4": [
-		[0, 135, "d"],
+		[0, 135, "right"],
 		[137, 147, "jump"],
-		[136, 237, "a"],
-		[240, 324, "d"],
+		[136, 237, "left"],
+		[240, 324, "right"],
 		[241, 248, "jump"],
-		[325, 399, "a"],
+		[325, 399, "left"],
 		[326, 336, "jump"],
-		[400, 494, "d"],
+		[400, 494, "right"],
 		[401, 407, "jump"],
-		[495, 669, "a"],
+		[495, 669, "left"],
 		[496, 498, "jump"],
 	],
 	"level 5": [
-		[0, 109, "d"],
-		[110, 120, "a"],
-		[131, 200, "d"],
+		[0, 109, "right"],
+		[110, 120, "left"],
+		[131, 200, "right"],
 		[45, 130, "jump"],
-		[150, 162, "a"],
+		[150, 162, "left"],
 	],
 	"level 7": [
-		[0, 145, "d"],
+		[0, 145, "right"],
 		[20, 22, "jump"],
 		[62, 65, "jump"],
-		[140, 192, "w"],
-		[146, 149, "a"],
-		[160, 165, "d"],
-		[165, 279, "a"],
+		[140, 192, "up"],
+		[146, 149, "left"],
+		[160, 165, "right"],
+		[165, 279, "left"],
 		[150, 192, "jump"],
 		[240, 245, "jump"],
-		[305, 390, "a"],
+		[305, 390, "left"],
 		[288, 305, "jump"],
 	],
 	"level 8": [
-		[0, 112, "d"],
+		[0, 112, "right"],
 		[19, 30, "jump"],
 		[63, 72, "jump"],
-		[113, 180, "w"],
+		[113, 180, "up"],
 		[112, 180, "jump"],
-		[130, 250, "d"],
+		[130, 250, "right"],
 	],
 	"level 9": [
 		[0, 0, "rclick", 1290, -20],
 		[1, 1, "lclick", -78, 800],
 	],
 	"new scene4": [		// ty river, this is l10
-		[0, 43, "d"],
-		[44, 100, "a"],
+		[0, 43, "right"],
+		[44, 100, "left"],
 		[94, 96, "jump"],
-		[115, 137, "a"],
+		[115, 137, "left"],
 		[123, 125, "jump"],
-		[145, 150, "d"],
+		[145, 150, "right"],
 		[153, 155, "jump"],
-		[144, 170, "a"],
+		[144, 170, "left"],
 		[177, 192, "jump"],
-		[175, 203, "a"],
-		[219, 235, "a"],
-		[255, 900, "a"],
+		[175, 203, "left"],
+		[219, 235, "left"],
+		[255, 900, "left"],
 		[210, 270, "jump"],
 		
 	],
 		"level 11": [
 		[0, 200, "e"],
-		[0, 45, "d"],
-		[175, 238, "d"],
+		[0, 45, "right"],
+		[175, 238, "right"],
 		[46, 47, "jump"],
 		[88, 89, "jump"],
 		[133, 134, "jump"],
 		[175, 176, "jump"],
-		[239, 314, "a"],
-		[314, 320, "d"],
+		[239, 314, "left"],
+		[314, 320, "right"],
 		[216, 290, "jump"],
 		[292, 300, "jump"],
-		[328, 700, "a"],
+		[328, 700, "left"],
 		[317, 325, "jump"],
 		[351, 390, "jump"],
 	],
 	"level 12": [
-		[0, 40, "a"],
-		[62, 300, "a"],
+		[0, 40, "left"],
+		[62, 300, "left"],
 		[0, 200, "jump"],
 		[0, 0, "lclick", 200, 756],
 		[1, 1, "lclick", 141, 674],			
@@ -113,12 +113,12 @@ window.inputs = {
 	],
 
 	"level 13" : [
-		[0, 120, "d"],
-		[136, 300, "a"],
-		[310, 312, "d"],
-		[312, 314, "d"],
-		[314, 316, "d"],
-		[316, 400, "d"],
+		[0, 120, "right"],
+		[136, 300, "left"],
+		[310, 312, "right"],
+		[312, 314, "right"],
+		[314, 316, "right"],
+		[316, 400, "right"],
 		[54, 80, "jump"],
 		[111, 190, "jump"],
 		[213, 254, "jump"],
@@ -127,22 +127,22 @@ window.inputs = {
 
 	
 	"level 14" : [
-		[25, 130, "d"],
-		[131, 400, "a"],
+		[25, 130, "right"],
+		[131, 400, "left"],
 		[25, 143, "jump"],
 		[147, 200, "jump"],
 		[210, 250, "jump"],
 
 	],
     "level 15" : [
-    [0, 600, "d"],
+    [0, 600, "right"],
     [14, 65, "jump"],
     [100, 600, "jump"],
     ],
 	"level 16" : [
-		[0, 131, "d"],
-		[133, 255, "a"],
-		[256, 400, "d"],
+		[0, 131, "right"],
+		[133, 255, "left"],
+		[256, 400, "right"],
 		[21, 29, "jump"],
 		[55, 59, "jump"],
 		[96, 125, "jump"],
@@ -154,9 +154,9 @@ window.inputs = {
 	],
 
 	"level 17" : [
-		[0, 168, "d"],
-		[169, 184, "a"],
-		[185, 600, "d"],
+		[0, 168, "right"],
+		[169, 184, "left"],
+		[185, 600, "right"],
 		[260, 265, "jump"],
 		[303, 358, "jump"],
 		[387, 415, "jump"],
@@ -164,62 +164,61 @@ window.inputs = {
 		[455, 480, "jump"],					
 	],
 	"level 18" : [
-		[0, 190, "d"],
+		[0, 190, "right"],
 		[6, 6, "jump"],
 		[107, 107, "jump"],		
 	],
 }
-
+window.fromKeyCode = function(keyCode) {
+	var keyCodes = {
+		37: "left",
+		38: "up",
+		39: "right",
+		40: "down",
+		32: "space"
+	}
+	return keyCodes[keyCode];
+}
 gdjs.evtTools.input._isKeyPressed = gdjs.evtTools.input.isKeyPressed;
-
+window._globalScene = "";
+window._globalPress = 0;
+function keyPressedIM(keyCode) {
+	var inp = window.inputs[window._globalScene];
+	if(inp) {	
+		for(var i=0; i<inp.length; i++) {
+			if(window._globalPress >= inp[i][0] && window._globalPress <= inp[i][1]) {
+				if (inp[i][2] == "jump") {
+					if(keyCode == 32) return true;
+					return;
+				} else {
+					if(fromKeyCode(keyCode) == inp[i][2]) return true;
+				}
+			}
+		}
+	}
+	return this._isKeyPressed(keyCode);	
+}
 gdjs.evtTools.input.isKeyPressed = function(runtimeScene, key) {
 	if(!runtimeScene._keyPressFrame) runtimeScene._keyPressFrame = 0;
+	var inputManager = runtimeScene.getGame().getInputManager();
+	if(!inputManager._hooked) {
+		inputManager._isKeyPressed = inputManager.isKeyPressed;
+		inputManager.isKeyPressed = keyPressedIM;
+		inputManager._hooked = true;
+	}
 	if(gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 0.01, "TASTimer")) {
 		runtimeScene._keyPressFrame++; 
+		window._globalPress = runtimeScene._keyPressFrame;
 		runtimeScene.getObjects("myElapsed").forEach(a=>a.setString(runtimeScene._keyPressFrame.toString()));
 		gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "TASTimer");
 	}
+	window._globalScene = runtimeScene._name.toLowerCase();
 	var inp = window.inputs[runtimeScene._name.toLowerCase()];
 	if(inp) {	
 		
 		for(var i=0; i<inp.length; i++) {
 			if(runtimeScene._keyPressFrame >= inp[i][0] && runtimeScene._keyPressFrame <= inp[i][1]) {
-				if(inp[i][2] == "ladder") {
-					var platObjects = runtimeScene.getObjects("Plat");
-					for(var i = 0, len = platObjects.length ;i < len;++i) {
-							console.log(platObjects[i].getBehavior("PlatformerObject"));
-							platObjects[i].getBehavior("PlatformerObject").simulateLadderKey();
-							platObjects[i].getBehavior("PlatformerObject").simulateUpKey();
-					}
-					continue;
-				} else if (inp[i][2] == "jump") {
-					var platObjects = runtimeScene.getObjects("Plat");
-					for(var i = 0, len = platObjects.length ;i < len;++i) {
-							platObjects[i].getBehavior("PlatformerObject").simulateJumpKey();
-					}
-					if(runtimeScene._name.toLowerCase() == "new scene4") { 
-						// jank for l10
-						platObjects = runtimeScene.getObjects("Plat2");
-						for(var i = 0, len = platObjects.length ;i < len;++i) {
-								platObjects[i].getBehavior("PlatformerObject").simulateJumpKey();
-						}
-						platObjects = runtimeScene.getObjects("Plat22");
-						for(var i = 0, len = platObjects.length ;i < len;++i) {
-								platObjects[i].getBehavior("PlatformerObject").simulateJumpKey();
-						}
-						platObjects = runtimeScene.getObjects("Plat222");
-						for(var i = 0, len = platObjects.length ;i < len;++i) {
-								platObjects[i].getBehavior("PlatformerObject").simulateJumpKey();
-						}
-						platObjects = runtimeScene.getObjects("Plat2222");
-						for(var i = 0, len = platObjects.length ;i < len;++i) {
-								platObjects[i].getBehavior("PlatformerObject").simulateJumpKey();
-						}
-					}
-					return;
-				} else {
-					if(key.toLowerCase() == inp[i][2]) return true;
-				}
+				if(key.toLowerCase() == inp[i][2]) return true;
 			}
 		}
 	}
