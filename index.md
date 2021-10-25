@@ -14,8 +14,8 @@ A simple frontend To allow TASing of Pixel Dash
 
 
 
-# Update History
+### Update History
 
-8/25/21 - Support added for arrow keys (7331dev/Epicness)
-8/25/21 - github.io page made (River)
+- 8/25/21 - Support added for arrow keys (7331dev/Epicness)
+- 8/25/21 - github.io page made (River)
  
