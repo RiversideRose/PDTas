@@ -1,9 +1,12 @@
-window.inputs = {
-	"level 1": [
+//Defines what inputs will be done per-scene
+window.inputs  = {
+//Defines the scene
+		"level 1"  : [
 		[0, 300, "right"],
 		[33, 48, "jump"],
 		[95, 114, "jump"],
 	],
+//Start Frame, End Frame, Input			
 	"level 2": [
 		[0, 300, "right"],
 		[42, 43, "e"],
@@ -169,6 +172,7 @@ window.inputs = {
 		[107, 107, "jump"],		
 	],
 }
+//Gets keycodes for arrowkeys
 window.fromKeyCode = function(keyCode) {
 	var keyCodes = {
 		37: "left",
@@ -198,6 +202,7 @@ function keyPressedIM(keyCode) {
 	}
 	return this._isKeyPressed(keyCode);	
 }
+//Checks If Key Is Pressed
 gdjs.evtTools.input.isKeyPressed = function(runtimeScene, key) {
 	if(!runtimeScene._keyPressFrame) runtimeScene._keyPressFrame = 0;
 	var inputManager = runtimeScene.getGame().getInputManager();
@@ -226,7 +231,7 @@ gdjs.evtTools.input.isKeyPressed = function(runtimeScene, key) {
 }
 
 gdjs.evtTools.input._wasKeyReleased = gdjs.evtTools.input.wasKeyReleased;
-
+//Checks If Key Is Released
 gdjs.evtTools.input.wasKeyReleased = function(runtimeScene, key) {
 	if(!runtimeScene._keyPressFrame) runtimeScene._keyPressFrame = 0;
 	var inp = window.inputs[runtimeScene._name.toLowerCase()];
@@ -242,7 +247,7 @@ gdjs.evtTools.input.wasKeyReleased = function(runtimeScene, key) {
 }
 
 gdjs.evtTools.input._isMouseButtonPressed = gdjs.evtTools.input.isMouseButtonPressed;
-
+//Checks If M1 or M2 is pressed
 gdjs.evtTools.input.isMouseButtonPressed = function(runtimeScene, button) {
 	if(!runtimeScene._keyPressFrame) runtimeScene._keyPressFrame = 0;
 	var inp = window.inputs[runtimeScene._name.toLowerCase()];
@@ -275,7 +280,7 @@ gdjs.evtTools.input.isMouseButtonReleased = function(runtimeScene, button) {
 	return gdjs.evtTools.input._isMouseButtonReleased(runtimeScene, button);
 }
 
-
+//Checks Mouse X Position
 gdjs.evtTools.input._getMouseX = gdjs.evtTools.input.getMouseX;
 
 gdjs.evtTools.input.getMouseX = function(runtimeScene, layer, camera) {
@@ -290,7 +295,7 @@ gdjs.evtTools.input.getMouseX = function(runtimeScene, layer, camera) {
 	}
 	return gdjs.evtTools.input._getMouseX(runtimeScene, layer, camera);
 }
-
+//Checks Mouse Y Position
 gdjs.evtTools.input._getMouseY = gdjs.evtTools.input.getMouseY;
 
 gdjs.evtTools.input.getMouseY = function(runtimeScene, layer, camera) {
