@@ -4,8 +4,9 @@ This uses a copy of the game which is completely extracted with custom code bein
 Currently GUI frontend is being worked on for people who don't know how to use CLI Tools.
 
 
-To compile this yourself you need nodejs and npm
-Dependancies
+To compile this yourself you need NodeJS and NPM
+
+**Dependencies**
 ```markdown
-electron-reload, electron, node-key-sender, electron-packager, path
+electron-reload, electron, node-key-sender, electron-packager, path, require, node-webkit, requirejs
 ```
